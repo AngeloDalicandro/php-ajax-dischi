@@ -12,6 +12,9 @@ header {
     height: 4rem;
     padding: 0.5rem 1rem;
     background-color: #2e3a46;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header img {
@@ -49,5 +52,22 @@ h2 {
 .author {
     color: grey;
     font-size: 1.5rem;
+}
+
+.form {
+    text-align: center;
+    margin-right: 4rem;
+}
+
+label {
+    color: white;
+}
+
+select, button {
+    padding: 0.25rem 1rem;
+}
+
+select {
+    margin: 0 1rem;
 }
 
