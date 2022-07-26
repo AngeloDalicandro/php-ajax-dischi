@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    height: 4rem;
+    padding: 0.5rem 1rem;
+    background-color: #2e3a46;
+}
+
+header img {
+    max-height: 100%;
+}
+
+main {
+    background-color: #1e2d3b;
+    padding: 4rem 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 70%;
+    margin: auto;
+}
+
+.album {
+    background-color: #2e3a46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 {
+    margin: 1rem 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.author {
+    color: grey;
+    font-size: 1.5rem;
+}
+
